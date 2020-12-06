@@ -1,11 +1,11 @@
 package com.student.model;
 
 public class StudentMode {
-	private int id;
-	private String username;
-	private String password;
-	private int sex;
-	private String love;
+	private int id;//id
+	private String username;//用户名
+	private String password;//用户密码
+	private int sex;//性别，0男1女
+	private String love;//爱好
 	
 	public StudentMode(int id, String username, String password, int sex, String love) {
 		super();
